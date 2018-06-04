@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Vue.js Intro</title>
+    <meta content="">
+    <style></style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }} tu as {{ age }}</p>
+    </div>
+  </body>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: "Ma page js",
+        age: 16
+      }
+    })
+  </script>
+</html>
